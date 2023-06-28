@@ -8,14 +8,33 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    border-bottom: 50px solid maroon; 
-    background-color: solid white;
+    width: 100%;
+    border: 10px solid maroon;
+    background-color: lightgray;
     color: solid maroon;
 
 }
+article ul {
+    text-align: left;
+    background-color: white;
+}
+
+article h2 {
+    margin: 0px;
+    text-align: left;
+    font-size: 125%;
+    background-color: white;
+}
+
+article p {
+    margin: 0px ;
+    text-align: left;
+    font-size: 150%;
+    background-color: white;
+}
 
 ul {
+    margin: 0px ;
     text-align: right;
     color: solid black;
 
@@ -34,7 +53,10 @@ li {
 
 
 section {
-    width: 100%
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    background-color: maroon;
 }
 
 h1 {
@@ -42,10 +64,20 @@ h1 {
     line-height: 50px;
     text-decoration-color: black
 }
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
 footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: maroon;
+    background-color: lightgray;
     color:black;
 }
