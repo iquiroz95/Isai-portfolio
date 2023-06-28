@@ -1,4 +1,39 @@
-body{
+*,
+*: :after,
+*: :before {
     margin: 0;
     padding: 0;
+}
+header {
+    width: 100%;
+    border-bottom: 50px solid maroon; 
+    background-color: darkolivegreen;
+}
+
+ul {
+    text-align: right;
+    color:antiquewhite;
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration-color: antiquewhite;
+}
+
+
+
+
+
+
+section {
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+    line-height: 50px;
+    text-decoration-color: antiquewhite;
 }
